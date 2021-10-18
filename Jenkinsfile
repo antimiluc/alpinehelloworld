@@ -2,7 +2,7 @@ pipeline {
      environment {
        IMAGE_NAME = "antimiluc/alpinehelloworld"
        IMAGE_TAG = "${BUILD_TAG}"
-       CONTAINER_NAME = "alpinehelloworld"
+       CONTAINER_NAME = "antimiluc/alpinehelloworld"
        STAGING = "ajc-staging"
        PRODUCTION = "ajc-production"
      }
