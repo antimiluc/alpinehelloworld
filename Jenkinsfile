@@ -3,8 +3,8 @@ pipeline {
        IMAGE_NAME = "antimiluc/alpinehelloworld"
        IMAGE_TAG = "${BUILD_TAG}"
        CONTAINER_NAME = "antimilucalpinehelloworld"
-       STAGING = "ajc-staging"
-       PRODUCTION = "ajc-production"
+       STAGING = "antimiluc/ajc-staging"
+       PRODUCTION = "antimiluc/ajc-production"
      }
      agent none
      stages {
